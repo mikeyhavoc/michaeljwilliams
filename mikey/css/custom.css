@@ -1,0 +1,191 @@
+
+.nav  li {
+  display: inline-block;
+  text-decoration: none;
+
+}
+a {
+  color:#0000FF;
+  padding: .5em .5em .5em .5em;
+  text-decoration:none;
+}
+a:hover {
+  color: #00CCFF;
+}
+a :active {
+  color: #00CCFF;
+}
+a :visited {
+  color: #0000FF;
+}
+body {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.5em;
+  background-color: #ffffff;
+}
+.indie {
+  font-family: 'Indie Flower', cursive;
+}
+/********************************/
+
+/** index.html**/
+/*#content {
+  background-color: #CCCCff;
+  width:auto;
+  height:auto;
+  display: inline-block;
+  padding: 2em 2em;
+  margin: 10% 0 0 25%;
+  border-radius: 5%;
+}*/
+
+
+/******* end index.html *******/
+
+/******* bio.html *************/
+#email-address  {
+    text-align: center;
+}
+#college {
+  display:inline-block;
+
+}
+#learned {
+  display:inline-block;
+
+}
+#college h3 {
+  text-align: center;
+}
+ h1,h2,hr {
+    color: #00CCFF;
+    margin-left:10%;
+}
+hr {
+
+  width: 80%;
+}
+h1 {
+  text-align : center;
+  margin-left:0;
+}
+h4 {
+  text-align: center;
+}
+#education p {
+  text-align: left;
+  margin-left: 10%;
+}
+#skills ul li {
+  list-style-type: none;
+}
+.list-one {
+  display:inline-block;
+  text-align:left;
+  margin-left:10%;
+}
+.list-two {
+  display: inline-block;
+  text-align: left;
+  margin-left: 5%;
+}
+#skills {
+  width: 100%;
+  display: block;
+}
+#work {
+  width: 100%;
+  display:inline;
+
+}
+#work-experience h4 {
+  display:inline;
+  text-align:left;
+  margin-left:10%;
+}
+#work-years h4 {
+  display: inline;
+  text-align: right;
+  margin-left:60%;
+}
+#work-experience h3 {
+  display:inline-block;
+  text-align:left;
+  margin-left:10%;
+}
+#work-years ul {
+  display:inline-block;
+  text-align: left;
+  margin-left: 10%;
+}
+#work-experience ul li {
+  display:inling-block;
+  margin-left: 10%;
+}
+/*** end bio.html ***/
+
+/**calculator.html **/
+#num-inputs input {
+    display: block;
+
+}
+#labels {
+    display: inline-block;
+
+    width: 30em;
+}
+#num-inputs {
+    display: inline-block;
+
+    width: 30em;
+}
+#calc #calculator-verify {
+    display:  block;
+    text-align: left;
+}
+#contact-input {
+  text-align: right;
+ border:red dotted 1px;
+}
+  label {
+  line-height: 1.5em;
+  border:red dotted 1px;
+  text-align: right;
+  display:inline-block;
+  margin-bottom:-5;
+}
+#num-inputs input {
+  text-align:left;
+  display:block;
+  line-height:2.2em;
+
+}
+/** end calculator.html **/
+/*** contact. html ***/
+#contact {
+  width:50%;
+}
+#contact-labels {
+  width: 200px;
+  display:inline-block;
+}
+
+#contact-inputs{
+  display:inline-block;
+  width: 200px;
+
+}
+#contact #verify {
+  display: block;
+  text-align: left;
+}
+#contact-form label,input{
+  line-height: 2em;
+}
+
+
+
+
+
+
+/*** end contact.html ***/
