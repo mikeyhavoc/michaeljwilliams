@@ -38,7 +38,9 @@ body {
   margin: 10% 0 0 25%;
   border-radius: 5%;
 }*/
-
+.main-page {
+  text-align: center;
+}
 
 /******* end index.html *******/
 
