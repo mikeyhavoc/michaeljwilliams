@@ -41,158 +41,25 @@ body {
 .main-page {
   text-align: center;
 }
+.main-page h1  {
+  color: #00ccff;
+}
 .left {
   display:inline;
 /*  text-align:center;*/
-  margin-left: 42%;
+  margin-left: 40%;
 }
-
-/******* end index.html *******/
-
-/******* bio.html *************/
-#email-address  {
-    text-align: center;
+/*** index.html ***/
+/*** contact.html ***/
+#contact #first_name {
+  margin-left: 5px;
 }
-#college {
-  display:inline-block;
-
+#contact #last_name {
+  margin-left: 7px;
 }
-#learned {
-  display:inline-block;
-
+#contact #phone_number {
+  margin-left: 52px;
 }
-#college h3 {
-  text-align: center;
+#contact #email_address {
+  margin-left: 62px;
 }
- h1,h2,hr {
-    color: #00CCFF;
-    margin-left:10%;
-}
-hr {
-
-  width: 80%;
-}
-h1 {
-  text-align : center;
-  margin-left:0;
-}
-h4 {
-  text-align: center;
-}
-#education p {
-  text-align: left;
-  margin-left: 10%;
-}
-#skills ul li {
-  list-style-type: none;
-}
-.list-one {
-  display:inline-block;
-  text-align:left;
-  margin-left:10%;
-}
-.list-two {
-  display: inline-block;
-  text-align: left;
-  margin-left: 5%;
-}
-#skills {
-  width: 100%;
-  display: block;
-}
-#work {
-  width: 100%;
-  display:inline;
-
-}
-#work-experience h4 {
-  display:inline;
-  text-align:left;
-  margin-left:10%;
-}
-#work-years h4 {
-  display: inline;
-  text-align: right;
-  margin-left:60%;
-}
-#work-experience h3 {
-  display:inline-block;
-  text-align:left;
-  margin-left:10%;
-}
-#work-years ul {
-  display:inline-block;
-  text-align: left;
-  margin-left: 10%;
-}
-#work-experience ul li {
-  display:inling-block;
-  margin-left: 10%;
-}
-/*** end bio.html ***/
-
-/**calculator.html **/
-#num-inputs input {
-    display: block;
-
-}
-#labels {
-    display: inline-block;
-
-    width: 30em;
-}
-#num-inputs {
-    display: inline-block;
-
-    width: 30em;
-}
-#calc #calculator-verify {
-    display:  block;
-    text-align: left;
-}
-#contact-input {
-  text-align: right;
- border:red dotted 1px;
-}
-  label {
-  line-height: 1.5em;
-  border:red dotted 1px;
-  text-align: right;
-  display:inline-block;
-  margin-bottom:-5;
-}
-#num-inputs input {
-  text-align:left;
-  display:block;
-  line-height:2.2em;
-
-}
-/** end calculator.html **/
-/*** contact. html ***/
-#contact {
-  width:50%;
-}
-#contact-labels {
-  width: 200px;
-  display:inline-block;
-}
-
-#contact-inputs{
-  display:inline-block;
-  width: 200px;
-
-}
-#contact #verify {
-  display: block;
-  text-align: left;
-}
-#contact-form label,input{
-  line-height: 2em;
-}
-
-
-
-
-
-
-/*** end contact.html ***/
