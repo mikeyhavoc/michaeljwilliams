@@ -41,6 +41,11 @@ body {
 .main-page {
   text-align: center;
 }
+.left {
+  display:inline;
+/*  text-align:center;*/
+  margin-left: 42%;
+}
 
 /******* end index.html *******/
 
