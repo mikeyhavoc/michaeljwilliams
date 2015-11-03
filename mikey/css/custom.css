@@ -2,7 +2,11 @@
 .nav  li {
   display: inline-block;
   text-decoration: none;
+}
+ .nav {
+  display:inline-block;
 
+  border:red dotted 1px;
 }
 a {
   color:#0000FF;
@@ -26,6 +30,11 @@ body {
 .indie {
   font-family: 'Indie Flower', cursive;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 /********************************/
 
 /** index.html**/
@@ -47,9 +56,102 @@ body {
 .left {
   display:inline;
 /*  text-align:center;*/
-  margin-left: 40%;
+  margin-left: 25%;
+}
+.main-bg {
+  background-color: #ccccff;
+    border-radius: 100%;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid #ccccff;
+
+
 }
 /*** index.html ***/
+
+/******* bio.html *************/
+#email-address  {
+    text-align: center;
+}
+#college {
+  display:inline-block;
+
+}
+#learned {
+  display:inline-block;
+
+}
+#college h3 {
+  text-align: center;
+}
+.resume {
+    color: #00CCFF;
+    margin-left:10%;
+}
+hr {
+
+  width: 80%;
+}
+h1 {
+  text-align : center;
+  margin-left:0;
+}
+h4 {
+  text-align: center;
+}
+#education p {
+  text-align: left;
+  margin-left: 10%;
+}
+#skills ul li {
+  list-style-type: none;
+}
+.list-one {
+  display:inline-block;
+  text-align:left;
+  margin-left:10%;
+}
+.list-two {
+  display: inline-block;
+  text-align: left;
+  margin-left: 5%;
+}
+#skills {
+  width: 100%;
+  display: block;
+}
+#work {
+  width: 100%;
+  display:inline-block;
+
+}
+#work-experience h4 {
+  display:inline;
+  text-align:left;
+  margin-left:10%;
+}
+#work-years h4 {
+  display: inline;
+  text-align: right;
+  margin-left:60%;
+}
+#work-experience h3 {
+  display:inline-block;
+  text-align:left;
+  margin-left:10%;
+}
+#work-years ul {
+  display:inline-block;
+  text-align: left;
+  margin-left: 10%;
+}
+#work-experience ul li {
+  display:inling-block;
+  margin-left: 10%;
+}
+/*** end bio.html ***/
+
 /*** contact.html ***/
 #contact #first_name {
   margin-left: 5px;
@@ -62,4 +164,32 @@ body {
 }
 #contact #email_address {
   margin-left: 62px;
+}
+/*** about.html ***/
+.about-name {
+  display:inline-block;
+  width: 40%;
+  border:red dotted 1px;
+}
+.about-title {
+  display: inline-block;
+  width:30%;
+  border:red dotted 1px;
+}
+.nav {
+  display: inline-block;
+  width: 40%;
+  border: red dotted 1px;
+}
+.about  {
+  font-size: .5em;
+  width: 30%;
+}
+.about-photo {
+  display:inline-block;
+
+
+}
+
+
 }
