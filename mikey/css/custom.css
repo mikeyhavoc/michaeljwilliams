@@ -6,7 +6,6 @@
  .nav {
   display:inline-block;
 
-  border:red dotted 1px;
 }
 a {
   color:#0000FF;
@@ -49,6 +48,7 @@ body {
 }*/
 .main-page {
   text-align: center;
+  display: inline-flex;
 }
 .main-page h1  {
   color: #00ccff;
@@ -64,9 +64,16 @@ body {
   width:400px;
   margin-left: auto;
   margin-right: auto;
-  border:1px solid #ccccff;
 
-
+}
+.developer{
+  margin-left: 20%;
+}
+.main {
+  margin-left: 22%;
+}
+.secondary {
+  margin-left: 12%;
 }
 /*** index.html ***/
 
@@ -175,11 +182,11 @@ h4 {
   display: inline-block;
   width:30%;
   border:red dotted 1px;
-}
+}/*
 .nav {
   display: inline-block;
   width: 40%;
-  border: red dotted 1px;
+  */
 }
 .about  {
   font-size: .5em;
